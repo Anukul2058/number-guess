@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(180, 88, 88);
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+}
+header h1{
+    color: white;
+    font-family: sans-serif;
+}
+.container{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5vh;
+    height: 13vh;
+    font-size: 1.5rem;
+    align-items: center;
+
+}
+.big-container{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 5vh;
+    margin-top: 4vh;
+    background-color: rgb(3, 145, 145);
+    height: 66vh;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.big-container h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+input{
+    width: 30vw;
+    height: 20vh;
+    margin-left: 25vw;
+    font-size: 4rem;
+    text-align: center;
+}
+#button{
+    width: 10vw;
+    margin-top: 5vh;
+    margin-left: 35vw;
+    height: 6vh;
+    background-color: yellow;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.line{
+    margin-top: 4vh;
+    margin-left: 25vw;
+    color: white;
+    font-size: 1.2rem;
+}
+.winner{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(180, 88, 88);
+    color: white;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top: 5vh;
+}
+.wrong{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(180, 88, 88);
+    color: white;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top: 5vh;
+
+}
+.gameover{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: yellow;
+
+    color: red;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top: 5vh;
+
+}
+.restart-button{
+    width: 10vw;
+    margin-top: 5vh;
+    margin-left: 35vw;
+    height: 6vh;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
